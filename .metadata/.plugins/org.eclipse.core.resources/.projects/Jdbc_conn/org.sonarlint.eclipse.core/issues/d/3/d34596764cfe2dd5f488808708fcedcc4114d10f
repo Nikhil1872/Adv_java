@@ -1,0 +1,9 @@
+
+u
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‹½»8Ê˜ğ×1HÍRBLOCKERZBUG
+{
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†ÏíŒşÿÿÿÿ8˜ÂÒ×1HÌRBLOCKERZBUG
+s
+java:S6437"6Revoke and change this password, as it is compromised.(†ÏíŒşÿÿÿÿ8˜ÂÒ×1HÎRBLOCKERZVULNERABILITY
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§öHÏRMINORZ
+CODE_SMELL

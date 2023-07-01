@@ -1,0 +1,18 @@
+
+b
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8ùµ”€‘1HßRMINORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„’•HÆRMINORZ
+CODE_SMELL
+{
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†ÏíŒşÿÿÿÿ8üÑÎÿ1HÔRBLOCKERZBUG
+‚
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(óó²¹ûÿÿÿÿ8ùµ”€‘1HÛRBLOCKERZBUG
+s
+java:S6437"6Revoke and change this password, as it is compromised.(†ÏíŒşÿÿÿÿ8üÑÎÿ1HÖRBLOCKERZVULNERABILITY
+„
+java:S3973,"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8ïˆ°€‘1H‰RCRITICALZ
+CODE_SMELL
+p
+java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8ÇêÄ€‘1H™RMINORZ
+CODE_SMELL

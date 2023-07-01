@@ -1,0 +1,15 @@
+
+{
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†ÏíŒşÿÿÿÿ8Â·ŞØ1H¶RBLOCKERZBUG
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§öH·RMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8¼ôËÙ1H¸RMINORZ
+CODE_SMELL
+z
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.( ˆÖÛùÿÿÿÿ8ğÁìØ1HºRBLOCKERZBUG
+s
+java:S6437"6Revoke and change this password, as it is compromised.(†ÏíŒşÿÿÿÿ8Â·ŞØ1H»RBLOCKERZVULNERABILITY
+`
+java:S1128	".Remove this unused import 'java.util.TreeSet'.(½îB8¼ôËÙ1H¼RMINORZ
+CODE_SMELL

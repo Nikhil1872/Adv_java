@@ -1,0 +1,9 @@
+
+„
+java:S3973^"IUse indentation to denote the code conditionally executed by this "else".(„¶αμψÿÿÿÿ8Α¬ΆΨ1HΘRCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(κ§φHΚRMINORZ
+CODE_SMELL
+‘
+java:S1210X"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(›μ΄όÿÿÿÿ8Α¬ΆΨ1HΛRMINORZ
+CODE_SMELL
