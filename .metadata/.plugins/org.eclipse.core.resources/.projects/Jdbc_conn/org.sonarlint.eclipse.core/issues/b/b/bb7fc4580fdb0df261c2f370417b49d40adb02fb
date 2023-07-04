@@ -1,9 +1,9 @@
 
 „
-java:S3973^"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8Á¬¢Ø1HÈRCRITICALZ
+java:S3973^"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8Á¬¢Ø1HøRCRITICALZ
 CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§öHÊRMINORZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê§öHúRMINORZ
 CODE_SMELL
 ‘
-java:S1210X"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(›ì´üÿÿÿÿ8Á¬¢Ø1HËRMINORZ
+java:S1210X"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(›ì´üÿÿÿÿ8Á¬¢Ø1HûRMINORZ
 CODE_SMELL
