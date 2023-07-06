@@ -9,4 +9,30 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+   <context-param>
+  	<param-name>driverclass</param-name>
+  	<param-value>com.mysql.cj.jdbc.Driver</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>jdbcurl</param-name>
+  	<param-value>jdbc:mysql://localhost:3306/test</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>user</param-name>
+  	<param-value>root</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>password</param-name>
+  	<param-value>12345</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>provider</param-name>
+  	<param-value>Know-IT, C-DAC ACTS ATC,pune</param-value>
+  </context-param>
+ 
 </web-app>
