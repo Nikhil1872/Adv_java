@@ -32,13 +32,8 @@ public class Login extends HttpServlet {
 				
 		con= (Connection) config.getServletContext().getAttribute("jdbccon");
 		System.out.println("Connection establish");
-		
-		
+	
 	}
-
-	
-	
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}

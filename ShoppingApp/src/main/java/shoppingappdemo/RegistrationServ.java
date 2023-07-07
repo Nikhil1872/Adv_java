@@ -32,14 +32,19 @@ public class RegistrationServ extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		doPost(request, response);
+		
 		
 		String id = request.getParameter("eid");
+		System.out.println("id +"+id);
 		String pwd = request.getParameter("pass");
+		System.out.println("id +"+pwd);
 		String fname = request.getParameter("fname");
+		System.out.println("id +"+fname);
 		String mname = request.getParameter("mname");
+		System.out.println("id +"+mname);
 		String lname = request.getParameter("lname");
 		String email = request.getParameter("email");
+		System.out.println("id +"+email);
 		String contact = request.getParameter("mno");
 		
 		
@@ -48,7 +53,7 @@ public class RegistrationServ extends HttpServlet {
 		try {
 			ps=con.prepareStatement("insert into users values(?,?,?,?,?,?,?)");
 			
-			System.out.println("ps");
+			System.out.println(ps);
 			
 			ps.setString(1, id);
 			ps.setString(2, pwd);
@@ -59,6 +64,8 @@ public class RegistrationServ extends HttpServlet {
 			ps.setString(7, contact);
 			
 			int n=ps.executeUpdate();
+			System.out.println("table updated"); 
+			
 			System.out.println("n "+n);
 			
 			if(n==1)
@@ -89,7 +96,7 @@ public class RegistrationServ extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		
+		doGet(request,response);
 		
 	}
 
