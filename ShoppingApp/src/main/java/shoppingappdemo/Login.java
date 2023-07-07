@@ -12,11 +12,14 @@ import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.mysql.cj.xdevapi.Result;
+import entities.User;
 
 @WebServlet("/Login")
 public class Login extends HttpServlet {
@@ -62,13 +65,37 @@ public class Login extends HttpServlet {
 			//login
 			if(rs.next())
 			{
+				Cookie [] allc = request.getCookies();
+				if(allc !=null)
+				{
+					for(Cookie c : allc)
+					{
+						if(c.getName().equals("loginerror"))
+						{
+							c.setMaxAge(0);
+							response.addCookie(c);
+						}
+					}
+				}
+				User user = new User(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7)); 
+				HttpSession session = request.getSession();
+				session.setAttribute("loggedinuser", user);
+				
+				
+				//generate response using home sevlet
 				RequestDispatcher rd = request.getRequestDispatcher("/Home");
 				rd.forward(request, response);
-				//out.println("<h3>success</h3>");
-			}
+						}
+			//if login failed
 			else
 			{
 				response.sendRedirect("/Login.html");
+				
+				//create cookie and add response to it
+				
+				Cookie c = new Cookie("loginerror","Wrong_UID/PWD");
+				response.addCookie(c);
+				response.sendRedirect("/login.html");
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

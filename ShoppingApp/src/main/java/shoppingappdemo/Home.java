@@ -47,6 +47,9 @@ public class Home extends HttpServlet {
 		  st=con.createStatement();
 		rs=st.executeQuery("select * from category");
 		
+		
+		out.print("<h2>Product Categories</h2>");
+		
 		while(rs.next())
 		{
 			out.println("<a href='getProducts?cid="+rs.getInt(1)+"'>"+rs.getString(2)+"</a><br/>");
