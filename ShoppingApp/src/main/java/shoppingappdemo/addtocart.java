@@ -49,7 +49,7 @@ public class addtocart extends HttpServlet {
 		out.print("<br/>selected product "+spid+" is added in the cart");
 		out.print("<br/>There are "+ products.size()+" item(s) in the cart");
 		
-		out.print("<br/> <a href='ViewCart'> View Cart <a/>");
+		out.print("<br/> <a href='viewcart.jsp'> View Cart <a/>");
 		out.print("<br/> <a href='Home'> Go back to Categories <a/>");
  		
 		
