@@ -51,7 +51,7 @@ public class confirmcart extends HttpServlet {
 		out.print("<p> You will receive message on"+ u.getContact() +" before order delivery </p>");
 		
 		out.print("<br/> <br/> <a href='Logout'> Logout <a/>");
-		//out.print("<br/> <br/> <a href='Home'> Want to set new order? <a/>");
+		out.print("<br/> <br/> <a href='Home'> Want to set new order? <a/>");
 
 		
 		

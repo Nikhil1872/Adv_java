@@ -8,11 +8,12 @@
 </head>
 <body>
 
-<h1>Weclome to cart</h1>
+
 <%
   User u = (User)session.getAttribute("loggedinuser"); 
-out.print(session.getAttribute(u.getFname()));
+
 %>
+<h1>Weclome to cart <%= u.getLname()%></h1>
 
 
 
