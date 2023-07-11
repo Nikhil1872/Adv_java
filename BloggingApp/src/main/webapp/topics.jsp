@@ -11,7 +11,7 @@
 
 
 <c:forEach var="topic" items="${topics}">
-		<a href="getComments?tid=${topic.tid}"> ${topic.tname} </a> <br/>
+		<a href="/GetCommentsbyuid?tid=${topic.tid}"> ${topic.tname} </a> <br/>
 	</c:forEach>
 
 </body>

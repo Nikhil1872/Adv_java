@@ -47,6 +47,7 @@ public class getProducts extends HttpServlet {
 				out.print("<form action='addtocart' method='get' >");
 				out.print("Select product : ");
 				out.print("<select name='selectedProducts'>");
+			
 				
 				while(rs.next())
 				{

@@ -6,13 +6,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="Stylesheet" href="newFile.css">
 </head>
 <body>
 
+<h1>Welcome to Blog</h1>
+<br/>
 <a href="GetTopicsServlet"> View Topic </a>
 	<br/>
 	
-<a href="getComments"> View Comments </a>
+<a href="GetComments"> View Comments </a>
 
 </body>
 </html>
