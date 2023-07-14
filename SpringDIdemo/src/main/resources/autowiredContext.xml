@@ -1,0 +1,47 @@
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+  
+  <!-- Autowire by Name -->
+  
+  
+  <bean id="emp" class="beans.Emp" autowire="byName" >
+  <property name="empid" value="1001"/>
+  
+  
+  <property name="emails" >
+  <list>
+  <value>ntalmale@gmail.com</value>
+  <value>talmale_nikhil@ghrce.net</value>
+  </list>
+  </property>
+  
+  </bean>
+  
+  <bean id="name" class="beans.Name">
+  <property name="fname" value="NIKHIL"/>
+  <property name="mname" value="SANJAY"/>
+  <property name="lname" value="TALMALE"/>
+  
+  </bean>
+  <bean id="address" class="beans.Address">
+  <property name="area" value="nagpur naka"/>
+   <property name="city" value="Bhandara"/>
+    <property name="pincode" value="441904"/>
+  </bean>
+  
+  <bean id="dept" class="beans.Dept">
+  <property name="deptid" value="10"/>
+    <property name="dname" value="IT"/>
+      <property name="location" value="Mumbai"/>
+  </bean>
+  
+  </beans>
+  
+  
