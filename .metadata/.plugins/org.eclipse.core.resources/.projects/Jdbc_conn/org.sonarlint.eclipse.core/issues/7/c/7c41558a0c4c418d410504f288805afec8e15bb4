@@ -1,16 +1,16 @@
 
 y
-java:S1126a"AReplace this if-then-else statement by a single return statement.(ÂÉ¢ ùÿÿÿÿ8ÓÚå‚‘1HñRMINORZ
+java:S1126a"AReplace this if-then-else statement by a single return statement.(ÂÉ¢ ùÿÿÿÿ8ÓÚå‚‘1HèHRMINORZ
 CODE_SMELL
+|
+java:S1206Z"PThis class overrides "hashCode()" and should therefore also override "equals()".(ğÜşŠ8ÓÚå‚‘1HéHRMINORZBUG
 a
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8à²æ‘1HòRMINORZ
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8à²æ‘1HêHRMINORZ
 CODE_SMELL
 Œ
-java:S1210j"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ªÇÍ‰8—Ü³‚‘1HôRMINORZ
-CODE_SMELL
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„’•HõRMINORZ
+java:S1210j"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ªÇÍ‰8—Ü³‚‘1HìHRMINORZ
 CODE_SMELL
 
-java:S1201`"UEither override Object.equals(Object), or rename the method to prevent any confusion.(ˆë¥8ÓÚå‚‘1HöRMAJORZBUG
-|
-java:S1206Z"PThis class overrides "hashCode()" and should therefore also override "equals()".(ğÜşŠ8ÓÚå‚‘1H÷RMINORZBUG
+java:S1201`"UEither override Object.equals(Object), or rename the method to prevent any confusion.(ˆë¥8ÓÚå‚‘1HíHRMAJORZBUG
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„’•HîHRMINORZ
+CODE_SMELL

@@ -15,9 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class Logincheck
- */
+
 @WebServlet("/Logincheck")
 public class Logincheck extends HttpServlet {
 	Connection con;

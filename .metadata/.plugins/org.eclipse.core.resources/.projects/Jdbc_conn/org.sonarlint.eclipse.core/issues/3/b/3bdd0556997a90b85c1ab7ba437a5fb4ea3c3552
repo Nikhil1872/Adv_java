@@ -1,18 +1,18 @@
 
-¤
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Â©‡üÿÿÿÿ8Œş‘1HòRMINORZ
-CODE_SMELL
-f
-java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8Œş‘1HôRMINORZ
-CODE_SMELL
 {
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†ÏíŒşÿÿÿÿ8Ÿ¸ç€‘1H½RBLOCKERZBUG
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„’•HºRMINORZ
-CODE_SMELL
-‚
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ìˆºøùÿÿÿÿ8¡£ğ‘1HãRBLOCKERZBUG
-i
-java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8Œş‘1HöRMINORZ
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†ÏíŒşÿÿÿÿ8Ÿ¸ç€‘1HŞHRBLOCKERZBUG
+f
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8Œş‘1HßHRMINORZ
 CODE_SMELL
 s
-java:S6437"6Revoke and change this password, as it is compromised.(†ÏíŒşÿÿÿÿ8Ÿ¸ç€‘1H¾RBLOCKERZVULNERABILITY
+java:S6437"6Revoke and change this password, as it is compromised.(†ÏíŒşÿÿÿÿ8Ÿ¸ç€‘1HáHRBLOCKERZVULNERABILITY
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„’•HâHRMINORZ
+CODE_SMELL
+¤
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Â©‡üÿÿÿÿ8Œş‘1HãHRMINORZ
+CODE_SMELL
+‚
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ìˆºøùÿÿÿÿ8¡£ğ‘1HåHRBLOCKERZBUG
+i
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8Œş‘1HæHRMINORZ
+CODE_SMELL
