@@ -19,7 +19,7 @@ public class Emp {
 	String ename;
 	@Column
 	int deptno;
-	
+	@Column
 	float salary;
 	
 	@JsonFormat(pattern="yyyy-MM-dd")
