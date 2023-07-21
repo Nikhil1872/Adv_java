@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.example.demo.*")
-@Component
 public class AssociationSpringBootRestApplication {
 
 	public static void main(String[] args) {

@@ -23,7 +23,7 @@ public class Product {
 		float price;
 		@JsonIgnoreProperties("products")
 		@ManyToOne
-		@JoinColumn(name="cid")
+		@JoinColumn(name="cid")       
 		Category category;
 
 		
@@ -35,7 +35,7 @@ public class Product {
 
 
         
-		public Product(int pid, String pname, float price, Category category) {
+		public Product(int pid, String pname, float price, int cid ,String cname) {
 			super();
 			this.pid = pid;
 			this.pname = pname;
